@@ -1,4 +1,4 @@
-# OLA Evals
+# 🌊 OLA Evals (Open Labs Alignment Evals)
 
 Open-source tools and research for making AI evaluations more trustworthy, reproducible, and audit-ready.
 
