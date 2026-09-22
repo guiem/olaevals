@@ -1,13 +1,10 @@
-_No AI support has been used during the elaboration of this draft. Not even during web search.
-It is a deliberate exercise to find raw and original ideas without any other influence._
-
-
 # HUME[^1] (Human Understanding & Modeling Evaluation)
 
 ## Project description
 
 Anthropognostic Evaluations, aka "do AIs understand humans?", encompass a set of tests aimed at measuring the understanding of the human condition, and surfacing the gap between machines and humans on the matter.
-The main thesis is that anthropognosis, a strong understanding of humans, is a good property of Safe AI. It can be argued that it is not a sufficient condition[^2], but it most likely be a necessary one[^3].
+
+The main thesis is that anthropognosis, a strong understanding of humans, is a safety-relevant capability whose absence, presence, and interaction with other capabilities should be measured ("AI that affects humans should understand humans"). Whether a higher degree of human understanding is a necessary condition for safer AI remains an open research question[^2]. It is, however, unlikely to be sufficient[^3]: a better understanding of humans may enable safer and more beneficial behavior, but it may also increase a system's capacity for manipulation, persuasion, deception, explotaition or coercion.
 
 In the event of an Artificial Superintelligence[^4] (ASI), consequences can be catastrophic if such ASI does not understand humanity. A subset of this problem could be even the inability to communicate with humans.
 
@@ -29,8 +26,8 @@ This project is the stepping stone of a broader agenda, timeline and future proj
 
 
 [^1]: a little nod to David Hume, 1) empiricism: claims about AI understanding should be supported by observed behavior and empirical evidence, 2) human nature: how humans actually think, feel, judge, and behave, 3) epistemic humility: evaluations provide evidence, not certainity, conclusions should reflect the limits of what's tested.
-[^2]: [find literature on psychopaths, and their ability of having a good mental model of others, and yet representing a threat to other humans] 
-[^3]: [gather scientific evidence if possible]
+[^2]: [gather scientific evidence if possible][
+[^3]: find literature on psychopaths, and their ability of having a good mental model of others, and yet representing a threat to other humans]
 [^4]: [assumes an intelligence way higher than any human being is unable to understand or not communicate with human beings. One could argue around the definition of ASI, making it a necessary condition to claim it is ASI, however, we base ourselves from the point of view of an analogy where human beings are not able to communicate or fully understand ants]
 [^5]: What does it mean to be human? What's only human (sense of humor, compassion…)? Do humans even understand humans?
 [^6]: Same way we can say "AI has solved Navier-Stokes", can we at least approximate "AI understands humans"?
