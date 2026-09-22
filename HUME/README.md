@@ -2,45 +2,55 @@
 
 ## Description
 
-Anthropognostic Evaluations, aka "do AIs understand humans?", encompass a set of tests aimed at measuring the understanding of the human condition, and surfacing the gap between machines and humans on the matter.
+Anthropognostic evaluations, a.k.a “do AIs understand humans?”, are tests aimed at measuring aspects of an AI system's understanding of humans, and surfacing the gap between machines and humans on the matter. *Anthropognosis* is used here as a working umbrella construct, not as the assumption that human understanding is a single ability or can be captured by one score.
 
-The main thesis is that anthropognosis, a strong understanding of humans, is a safety-relevant capability whose absence, presence, and interaction with other capabilities should be measured ("AI that affects humans should understand humans"). Whether a higher degree of human understanding is a necessary condition for safer AI remains an open research question[^2]. It is, however, unlikely to be sufficient[^3]: a better understanding of humans may enable safer and more beneficial behavior, but it may also increase a system's capacity for manipulation, persuasion, deception, explotaition or coercion.
+The main thesis is that anthropognosis is a safety-relevant capability whose absence, presence, and interaction with other capabilities should be measured (“AI that affects humans should understand humans”). Whether a higher degree of human understanding is a necessary condition for safer AI remains an open research question[^2]. It is unlikely to be sufficient[^3]: better models of humans may enable safer and more beneficial behavior, but may also increase a system's capacity for manipulation, persuasion, deception, exploitation, or coercion.
 
-In the event of an Artificial Superintelligence[^4] (ASI), consequences can be catastrophic if such ASI does not understand humanity. A subset of this problem could be even the inability to communicate with humans.
+Existing research provides a useful starting point but not a complete measure of anthropognosis. For example, theory of mind (ToM), the ability to represent other people's mental states, is itself a family of related abilities rather than a unitary construct. Recent experiments have found that large language models can match or exceed human performance on some ToM tasks while failing others; they also show that apparent successes and failures can reflect response biases rather than the underlying capacity of interest.[^4] HUME proposes a broader, construct-valid evaluation program rather than another isolated benchmark.
 
-This project is aimed at kickstarting a research agenda which main goals:
-1. define what "understanding humans/humanity" mean[^5]
-2. operationalize such construct[^6]
-3. design an evaluation/s to measure anthropognosis[^7]
-4. create a framework to interpret implications of different range of levels in anthropognosis.
+The longer-term motivation concerns advanced AI, including hypothetical artificial superintelligence (ASI). A highly capable system that systematically misunderstands human intentions, values, vulnerability, or the consequences of its actions could create serious risks. This is a motivating hypothesis, not an established empirical claim.[^5]
 
-If we can successfully assess anthropognostic capabilities, doing so could help reduce, or at least better understand, the risks posed by advanced AI systems. Knowing where and how AI systems misunderstand humans could inform deployment decisions, training, safeguards, the interpretation of other evaluations, and feed into regulatory evaluation requirements[^8]. This may be especially important in high-stakes situations where communication and conflict resolution matter: if an advanced system can genuinely understand human intentions, values, concerns, and the consequences its actions have for people, then we at least have a stronger basis for meaningful and transparent communication with it. More immediately, measuring the extent to which AI systems understand humans could also provide useful context for interpreting their behavior in other safety evaluations.
+This project aims to begin a research agenda with four goals:
 
+1. Define the dimensions of “understanding humans” that may be safety-relevant.
+2. Operationalize those dimensions as measurable constructs.[^6]
+3. Design evaluations that measure them validly and reliably.[^7]
+4. Develop a framework for interpreting what different performance profiles do—and do not—imply.
+
+If anthropognostic capabilities can be assessed successfully, the resulting evidence could help identify and characterize risks from advanced AI systems. Knowing where and how systems misunderstand humans could inform deployment decisions, training, safeguards, and the interpretation of other safety evaluations. It may also inform future assurance or regulatory evaluation practices, although current regulation does not specifically require an anthropognostic evaluation.[^8]
+
+This may be especially relevant in high-stakes situations where communication and conflict resolution matter. Understanding human intentions and concerns could support more meaningful communication, but only when combined with properties such as cooperation, corrigibility, and appropriate objectives. More immediately, anthropognostic measurements could provide useful context for interpreting behavior in other safety evaluations.
 
 ## Risk Analysis
-- "understand humans" may be far too broad as one construct. It could include: beliefs and intentions, emotions, social norms, values, culture, moral judgments, communication, vulnerability, humor, conflict. etc. It can be addressed by decomposing anthropognosis into capabilities first, then ask which ones matter for which safety failures. It can become an actually relevant contribution, the decomposition. What kinds of human understanding matter for AI safety? Which can we measure reliably? Which failures predict safety-relevant behavior?
-- “Communication is necessary for conflict resolution” is reasonable but may not be enough, understanding humans does not guarantee cooperative communication. Understanding capability may need to be combined with alignment/cooperation/corrigibility to provide actual safer interaction. 
-- “AI has skin in the game and therefore won't sandbag”. A sufficiently strategic model could understand that passing or failing has downstream consequences. 
-- Dynamnically generated tests introduce another problem: how do you guarantee equivalent difficulty and construct validity? Need to evaluate the evaluator. One big research question is whether we are capable to find a trivial mechanism which helps us with this generation. The research assumption is that a binary wall exists that has to be crossed in order to understand humans, at least the way we do. An analogy would be a child that is not capable of reading words yet, even though they are capable of reading phonems from letters, until the brain is ready the sequence of sounds does not form a word. 
+
+- **Construct breadth:** “Understanding humans” may be too broad to treat as one construct. It may include beliefs and intentions, emotions, social norms, values, culture, moral judgment, communication, vulnerability, humor, and conflict. HUME should first decompose anthropognosis into dimensions, then test which dimensions predict which safety-relevant behaviors.
+- **Construct validity:** A test can be reliable while measuring the wrong thing. Each proposed measure needs an explicit construct definition, evidence that items elicit the intended capability, and tests of plausible alternative explanations.[^6]
+- **Capability is not disposition:** Understanding another person does not imply caring about them. Research distinguishing cognitive from affective empathy provides a human analogy for why social modeling and prosocial motivation should not be conflated.[^3]
+- **Human comparison:** Tasks need well-characterized human baselines and disagreement, not an assumption that every important item is trivial for every human. Comparisons should use multiple tasks, repetitions, and perturbations rather than one prompt or aggregate score.[^4]
+- **Contamination and dynamic testing:** Generating or refreshing items may reduce contamination, but it can also change difficulty and construct coverage. Item generation therefore needs its own validation and quality controls.[^7]
+- **Strategic behavior:** Giving a system “skin in the game” does not guarantee truthful performance. A sufficiently strategic system may infer the consequences of passing or failing, so sandbagging remains a threat model rather than a solved design problem.
+- **Threshold assumptions:** The idea that human understanding requires crossing a binary threshold is an empirical hypothesis. HUME should compare threshold, continuous, and multidimensional models rather than assume one in advance.
 
 ## Project Expansion
 
-This project is the stepping stone of a broader agenda, timeline and future projections:
-1. Establish the research program (also gather empirical evidence for HUME: the first Anthropognostic evaluation). 3 months.
-2. Create a Foundation. Grow distributed team (anywhere in the world so the field benefits from diversity). Consolidate first anthropognostic evaluation. 6 months.
-3. Broaden scope from benchmark/eval creation to auditing existing evaluations (borrow current red teaming of models to red teaming existing evaluations)
+This project is a stepping stone toward a broader agenda:
 
+1. Establish the research program and gather initial empirical evidence through the first HUME evaluation. Target: 3 months.
+2. Create a foundation, grow a distributed team, and consolidate the first anthropognostic evaluation. Target: 6 months.
+3. Broaden the scope from creating evaluations to auditing them: apply adversarial and red-team methods not only to models, but to the evaluations used to make claims about them.
 
+[^1]: A little nod to David Hume: (1) **empiricism**—claims about AI understanding should be supported by observed behavior and empirical evidence; (2) **human nature**—the object of study is how humans actually think, feel, judge, and behave; and (3) **epistemic humility**—evaluations provide bounded evidence, not certainty.
 
-[^1]: a little nod to David Hume, 1) empiricism: claims about AI understanding should be supported by observed behavior and empirical evidence, 2) human nature: how humans actually think, feel, judge, and behave, 3) epistemic humility: evaluations provide evidence, not certainity, conclusions should reflect the limits of what's tested.
-[^2]: [gather scientific evidence if possible][
-[^3]: find literature on psychopaths, and their ability of having a good mental model of others, and yet representing a threat to other humans]
-[^4]: [assumes an intelligence way higher than any human being is unable to understand or not communicate with human beings. One could argue around the definition of ASI, making it a necessary condition to claim it is ASI, however, we base ourselves from the point of view of an analogy where human beings are not able to communicate or fully understand ants]
-[^5]: What does it mean to be human? What's only human (sense of humor, compassion…)? Do humans even understand humans?
-[^6]: Same way we can say "AI has solved Navier-Stokes", can we at least approximate "AI understands humans"?
-[^7]: A desirable design implies that 1) tests should be dynamic, we should be able to generate endless tests similar to the endless generative power of grammar so we avoid contamination, 2) tests should be trivial to pass by humans, but hard for machines, or at least well-characterized human performance and disagreement 3) AI has some skin in the game, wants to pass the test since humans wouldn't allow it to do anything if it doesn't pass it, so AI naturally doesn't want to sandbag, and 4) passing the test/s would add to an AI's portfolio, it should be a requirement but not a sufficient condition for anything, e.g. for certain environments and model capabilities, they should pass the HUME eval.
-[^8]: see EU AI Act
+[^2]: No cited result currently establishes anthropognosis as a necessary condition for safe AI. The necessity claim is treated as a falsifiable research question. Existing work instead supports studying narrower components and their limits; see [Strachan et al. (2024), “Testing theory of mind in large language models and humans,” *Nature Human Behaviour*](https://doi.org/10.1038/s41562-024-01882-z).
 
+[^3]: Human evidence supports separating the capacity to infer another person's mental state from affective concern for them; see [Campos, Rocha, and Barbosa (2023), “Dissociating cognitive and affective empathy across psychopathy dimensions,” *Frontiers in Psychology*](https://doi.org/10.3389/fpsyg.2023.1082965). This is an analogy, not evidence that AI systems have psychopathy. On the AI side, recent experiments show that language models can be effective persuaders, illustrating the dual-use potential of modeling an interlocutor; see [Salvi et al. (2025), “On the conversational persuasiveness of GPT-4,” *Nature Human Behaviour*](https://doi.org/10.1038/s41562-025-02194-6).
 
+[^4]: Theory of mind offers one scientifically developed, but incomplete, starting point. Strachan et al. describe it as an interconnected set of abilities and compare humans and language models across false belief, indirect requests, irony, misdirection, and faux pas using repeated tests and novel items: [Strachan et al. (2024)](https://doi.org/10.1038/s41562-024-01882-z).
 
+[^5]: ASI is used here as a hypothetical system substantially more capable than humans across many relevant domains. Claims about how such a system would understand or communicate with humans are currently speculative and should not be presented as empirical findings.
 
+[^6]: Operationalization should be treated as a validation program, not merely the act of writing test items. See [Flake and Fried (2020), “Measurement Schmeasurement: Questionable Measurement Practices and How to Avoid Them,” *Advances in Methods and Practices in Psychological Science*](https://doi.org/10.1177/2515245920952393), and [Flake et al. (2022), “Construct validity and the validity of replication studies,” *American Psychologist*](https://doi.org/10.1037/amp0001006).
+
+[^7]: A desirable design would use multiple measures, repeated trials, adversarial perturbations, human baselines, and novel or refreshed items. Dynamic items can reduce exposure to test-set contamination, but require stable scoring and difficulty controls. See [Strachan et al. (2024)](https://doi.org/10.1038/s41562-024-01882-z) and [White et al. (2024), “LiveBench: A Challenging, Contamination-Limited LLM Benchmark”](https://arxiv.org/abs/2406.19314).
+
+[^8]: The [EU AI Act, Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) requires risk management and appropriate levels of accuracy, robustness, and cybersecurity for high-risk AI systems (notably Articles 9 and 15). It does not currently mandate a general evaluation of whether AI systems “understand humans.”
