@@ -1,6 +1,6 @@
 # HUME[^1] (Human Understanding & Modeling Evaluation)
 
-## Project description
+## Description
 
 Anthropognostic Evaluations, aka "do AIs understand humans?", encompass a set of tests aimed at measuring the understanding of the human condition, and surfacing the gap between machines and humans on the matter.
 
@@ -16,7 +16,13 @@ This project is aimed at kickstarting a research agenda which main goals:
 
 If we can successfully assess anthropognostic capabilities, doing so could help reduce, or at least better understand, the risks posed by advanced AI systems. Knowing where and how AI systems misunderstand humans could inform deployment decisions, training, safeguards, and the interpretation of other evaluations. This may be especially important in high-stakes situations where communication and conflict resolution matter: if an advanced system can genuinely understand human intentions, values, concerns, and the consequences its actions have for people, then we at least have a stronger basis for meaningful and transparent communication with it. More immediately, measuring the extent to which AI systems understand humans could also provide useful context for interpreting their behavior in other safety evaluations.
 
-### Project Expansion
+
+## Risk Analysis
+- “Communication is necessary for conflict resolution” is reasonable but may not be enough, understanding humans does not guarantee cooperative communication. Understanding capability may need to be combined with alignment/cooperation/corrigibility to provide actual safer interaction. 
+- “AI has skin in the game and therefore won't sandbag”. A sufficiently strategic model could understand that passing or failing has downstream consequences. 
+- Dynamnically generated tests introduce another problem: how do you guarantee equivalent difficulty and construct validity? Need to evaluate the evaluator. One big research question is whether we are capable to find a trivial mechanism which helps us with this generation. The research assumption is that a binary wall exists that has to be crossed in order to understand humans, at least the way we do. An analogy would be a child that is not capable of reading words yet, even though they are capable of reading phonems from letters, until the brain is ready the sequence of sounds does not form a word. 
+
+## Project Expansion
 
 This project is the stepping stone of a broader agenda, timeline and future projections:
 1. Establish the research program (also gather empirical evidence for HUME: the first Anthropognostic evaluation). 3 months.
