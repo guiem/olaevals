@@ -14,7 +14,7 @@ This project is aimed at kickstarting a research agenda which main goals:
 3. design an evaluation/s to measure anthropognosis[^7]
 4. create a framework to interpret implications of different range of levels in anthropognosis.
 
-If we can successfully assess anthropognostic capabilities, doing so could help reduce, or at least better understand, the risks posed by advanced AI systems. Knowing where and how AI systems misunderstand humans could inform deployment decisions, training, safeguards, and the interpretation of other evaluations. This may be especially important in high-stakes situations where communication and conflict resolution matter: if an advanced system can genuinely understand human intentions, values, concerns, and the consequences its actions have for people, then we at least have a stronger basis for meaningful and transparent communication with it. More immediately, measuring the extent to which AI systems understand humans could also provide useful context for interpreting their behavior in other safety evaluations.
+If we can successfully assess anthropognostic capabilities, doing so could help reduce, or at least better understand, the risks posed by advanced AI systems. Knowing where and how AI systems misunderstand humans could inform deployment decisions, feed into regulatory evaluation requirements[^8], training, safeguards, and the interpretation of other evaluations. This may be especially important in high-stakes situations where communication and conflict resolution matter: if an advanced system can genuinely understand human intentions, values, concerns, and the consequences its actions have for people, then we at least have a stronger basis for meaningful and transparent communication with it. More immediately, measuring the extent to which AI systems understand humans could also provide useful context for interpreting their behavior in other safety evaluations.
 
 
 ## Risk Analysis
@@ -39,6 +39,7 @@ This project is the stepping stone of a broader agenda, timeline and future proj
 [^5]: What does it mean to be human? What's only human (sense of humor, compassion…)? Do humans even understand humans?
 [^6]: Same way we can say "AI has solved Navier-Stokes", can we at least approximate "AI understands humans"?
 [^7]: A desirable design implies that 1) tests should be dynamic, we should be able to generate endless tests similar to the endless generative power of grammar so we avoid contamination, 2) tests should be trivial to pass by humans, but hard for machines, or at least well-characterized human performance and disagreement 3) AI has some skin in the game, wants to pass the test since humans wouldn't allow it to do anything if it doesn't pass it, so AI naturally doesn't want to sandbag, and 4) passing the test/s would add to an AI's portfolio, it should be a requirement but not a sufficient condition for anything, e.g. for certain environments and model capabilities, they should pass the HUME eval.
+[^8]: see EU AI Act
 
 
 
