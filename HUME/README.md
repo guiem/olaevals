@@ -14,7 +14,7 @@ This project is aimed at kickstarting a research agenda which main goals:
 3. design an evaluation/s to measure anthropognosis[^7]
 4. create a framework to interpret implications of different range of levels in anthropognosis.
 
-If we successfully manage to assess anthropognostic capabilities, it would be beneficial to reducing, or at least understanding, the possible existential risks from advanced AI systems. For one, communication is necessary for conflict resolution. If we could ensure these systems can actually understand humanity, it would guarantee at least a way to transparently communicate with them. On another shorter term level, knowing to what extent AI systems understand humans would help shed some light into other evaluations. Example: [think of something, like sandbagging but why, does it understand what's at stake for humans or not, makes a huge difference!] 
+If we can successfully assess anthropognostic capabilities, doing so could help reduce, or at least better understand, the risks posed by advanced AI systems. Knowing where and how AI systems misunderstand humans could inform deployment decisions, training, safeguards, and the interpretation of other evaluations. This may be especially important in high-stakes situations where communication and conflict resolution matter: if an advanced system can genuinely understand human intentions, values, concerns, and the consequences its actions have for people, then we at least have a stronger basis for meaningful and transparent communication with it. More immediately, measuring the extent to which AI systems understand humans could also provide useful context for interpreting their behavior in other safety evaluations.
 
 ### Project Expansion
 
