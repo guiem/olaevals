@@ -20,7 +20,7 @@ If we can successfully assess anthropognostic capabilities, doing so could help 
 
 This project is the stepping stone of a broader agenda, timeline and future projections:
 1. Establish the research program (also gather empirical evidence for HUME: the first Anthropognostic evaluation). 3 months.
-2. Create a Foundation. Grow team. Consolidate first anthropognostic evaluation. 6 months.
+2. Create a Foundation. Grow distributed team (anywhere in the world so the field benefits from diversity). Consolidate first anthropognostic evaluation. 6 months.
 3. Broaden scope from benchmark/eval creation to auditing existing evaluations (borrow current red teaming of models to red teaming existing evaluations)
 
 
