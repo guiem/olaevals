@@ -4,6 +4,10 @@ Open-source tools and research for making AI evaluations more trustworthy, repro
 
 OLA Evals focuses both on designing and building benchmarks and evaluations from scratch, and on evaluating existing evaluations themselves: their validity, robustness, reproducibility, assumptions, and the evidence they support.
 
+## Research Projects
+
+- [HUME — Human Understanding & Modeling Evaluation](HUME/README.md): Research into measuring AI systems' understanding of humans and investigating its implications for AI safety.
+
 ## Status
 
 Early-stage project. Initial evaluation audits, benchmarks, tools, and examples are in development.
