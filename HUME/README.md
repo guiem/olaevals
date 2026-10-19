@@ -18,7 +18,6 @@ This project aims to begin a research agenda with four goals:
 2. Operationalize those dimensions as measurable constructs.[^6]
 3. Design evaluations that measure them validly and reliably.[^7]
 4. Develop a framework for interpreting what different performance profiles do—and do not—imply.
-5. Investigate whether measured anthropognostic capabilities predict safety-relevant behavior, including where greater human understanding supports beneficial interactions or enables harmful ones.
 
 If anthropognostic capabilities can be assessed successfully, the resulting evidence could help identify and characterize risks from advanced AI systems. Knowing where and how systems misunderstand humans could inform deployment decisions, training, safeguards, and the interpretation of other safety evaluations. It may also inform future assurance or regulatory evaluation practices, although current regulation does not specifically require an anthropognostic evaluation.[^8]
 
